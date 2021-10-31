@@ -172,11 +172,11 @@ function redCyclists(){
 }
 
 //create reset function here
-function reset()
+function reset(){
 gameState = PLAY;
 gameOver.visible = false;
 mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
 pinkCG.destroyEach();
 redCG.destroyEach();
 yellowCG.destroyEach();
-distance = 0;
+distance = 0;}
